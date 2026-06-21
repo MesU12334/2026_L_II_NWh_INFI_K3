@@ -7,6 +7,7 @@ moje_imie = "Maksym"
 msg = "Hello Maksym!"
 
 
+
 @app.route('/')
 def index():
     output = request.args.get('output')
